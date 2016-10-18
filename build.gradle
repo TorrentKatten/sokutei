@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+   compile 'org.influxdb:influxdb-java:2.3'
+}
